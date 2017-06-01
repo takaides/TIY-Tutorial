@@ -13,7 +13,7 @@ h2{
 
 }*/
 .storeBG{
-  background: red;
+  background: linear-gradient(to right, DeepPink , OrangeRed); 
   padding: 2em;
 
 }
@@ -61,6 +61,7 @@ body{
   text-transform: uppercase;
   display: inline-block;
   color: red;
+  /*color: linear-gradient(to right, DeepPink , OrangeRed);*/
   padding: .5em .5em .5em;
   margin-bottom: .5em;
   font-weight: bold;
