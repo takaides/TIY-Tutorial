@@ -1,35 +1,69 @@
 header{
+  background: white;
 
 }
 footer{
 
 }
 h2{
+  margin: 0px;
 
 }
 /*.headerTable{
   color: #E67E22;
 
 }*/
-.bgColorOrange{
-  background-color: darkorange;
+.storeBG{
+  background: darkorange;
   padding: 2em;
 
 }
 .bgColorWhite{
-  background-color: white;
+  background: white;
 
 }
 .bgColorPink{
   background-color: pink;
+  padding: 1.5em;
 
 }
 .centered{
   text-align: center;
 
 }
+.logo{
+  width: 4em;
+  height: 2em;
+  padding-top: .5em;
+
+}
+.link{
+  text-decoration: none;
+  font-size: .8em;
+}
 body{
   margin: 0px;
+  font-family: sans-serif;
+
+}
+.mainNav{
+  display: inline-block;
+  padding: 1em;
+
+}
+.navMenu{
+  text-transform: uppercase;
+  display: inline-block;
+  color: #E67E22;
+  padding: 0em .5em;
+  margin-bottom: .5em;
+  font-weight: bold;
+
+}
+.textOnBG{
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
 
 }
 /* display: inline-block; */
