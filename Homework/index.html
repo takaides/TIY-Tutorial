@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/master.css">
   </head>
 
-  <body>
+  <body class="">
     <header class="bgColorWhite">
       <!-- Main navigation -->
       <div class="mainNav">
@@ -32,19 +32,23 @@
       </div>
 
       <!-- Secondary navigation -->
-
+      <div class="secNav sideBySide">
+        <a class="link secNav" href="">Help</a>
+        <a class="link secNav" href="">My Account</a>
+        <a class="link secNav" href=""><img class="cart" src="images/cart.jpg">Shopping Cart</a>
+      </div>
 
     </header>
 
-    <section class="storeBG">
-      <div class="">
-        <a class="link textOnBG" href="index.html">&#8592; Back To All Shoes!</a>
+    <section class="storeBG sideBySideBlock">
+      <div class="sideBySideBlock">
+        <a class="link textOnBG upper" href="index.html">&#8592; Back To All Shoes!</a>
         <br>
-        <img src="images/shoe1.png" alt="You need some Converses!">
+        <img class="mainShoe" src="images/shoe1.png" alt="You need some Converses!">
       </div>
-      <div class="">
+      <div class="sideBySideBlock">
         <div class="textOnBG">
-          <h1 class="textOnBG">Quick Sneakers</h1>
+          <h1 class="textOnBG upper">Quick Sneakers</h1>
           <p class="textOnBG">Bacon ipsum dolor amet salami strip steak t-bone, bacon sausage cupim jerky kielbasa boudin leberkas spare ribs. Pork short ribs rump, chuck doner ham hock beef ribs jowl ball tip sirloin.</p>
           <a href="index.html">Read the Reviews</a>
         </div>
@@ -56,15 +60,34 @@
     </section>
 
     <section class="bgColorWhite">
-      <h2>Exciting Topic</h2>
-      <p>Content here</p>
-      <h2>Exciting Topic</h2>
-      <p>Content here</p>
+
+      <!-- additional info headers -->
+      <div class="">
+        <h2>Product details</h2>
+        <h2>size & fit</h2>
+        <h2>reviews</h2>
+      </div>
+      <!-- Product Details -->
+      <div class="">
+        <h2>Exciting Topic</h2>
+        <p>Content here</p>
+        <h2>Exciting Topic</h2>
+        <p>Content here</p>
+      </div>
+
       <br><br>
-      <h2>Find Your Shoe Size & Fit</h2>
-      <p>Content here</p>
-      <h2>What Our Customers Are Saying!</h2>
-      <p>Don't take our word for it! Read what our customers have been saying about this product. We guarantee you won't be disappointed in your purchase.</p>
+      <!-- size and fit -->
+      <div class="">
+        <h2>Find Your Shoe Size & Fit</h2>
+        <p>Content here</p>
+      </div>
+
+      <!-- reviews -->
+      <div class="">
+        <h2>What Our Customers Are Saying!</h2>
+        <p>Don't take our word for it! Read what our customers have been saying about this product. We guarantee you won't be disappointed in your purchase.</p>
+      </div>
+
       <br><br><br>
     </section>
 
@@ -72,18 +95,18 @@
       <h2>Shop Recommended Shoes</h2>
     </section>
 
-    <section class="storeBG">
-      <div>
+    <section class="storeBG sideBySideBlock">
+      <div class="sideBySide">
         <img src="images/shoe2.png" alt="You need this shoe">
         <h3>Funny Sneakers</h3>
         <a href="index.html">$120.00</a>
       </div>
-      <div>
+      <div class="sideBySide">
         <img src="images/shoe3.png" alt="You need this shoe">
         <h3>Funny Sneakers</h3>
         <a href="index.html">$120.00</a>
       </div>
-      <div>
+      <div class="sideBySide">
         <img src="images/shoe4.png" alt="You need this shoe">
         <h3>Funny Sneakers</h3>
         <a href="index.html">$120.00</a>
@@ -101,13 +124,34 @@
           <td><h2>Customize</h2></td>
         </tr>
       </table> -->
-      <!-- logo -->
-      <a href="index.html">
-        <img src="images/logo.jpg" alt="Shoe Logo">
-      </a>
-      <!-- Prmary navigation -->
-
+      <!-- Main navigation -->
+      <div class="mainNav">
+        <!-- logo -->
+        <a class="link" href="index.html">
+          <img class="logo" src="images/logo.jpg" alt="Shoe Logo">
+        </a>
+        <div class="navMenu centered">
+          men
+        </div>
+        <div class="navMenu centered">
+          women
+        </div>
+        <div class="navMenu centered">
+          boys
+        </div>
+        <div class="navMenu centered">
+          girls
+        </div>
+        <div class="navMenu centered">
+          customize
+        </div>
+      </div>
       <!-- contact/about us/copyright -->
+      <div class="">
+        <div class="">
+
+        </div>
+      </div>
     </footer>
   </body>
 </html>

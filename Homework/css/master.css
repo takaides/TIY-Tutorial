@@ -3,18 +3,17 @@ header{
 
 }
 footer{
-
+  background: white;
 }
 h2{
   margin: 0px;
-
 }
 /*.headerTable{
   color: #E67E22;
 
 }*/
 .storeBG{
-  background: darkorange;
+  background: red;
   padding: 2em;
 
 }
@@ -31,15 +30,21 @@ h2{
   text-align: center;
 
 }
+.cart{
+  height: 1em;
+  width: 1.5em;
+}
 .logo{
-  width: 4em;
-  height: 2em;
-  padding-top: .5em;
+  width: 5em;
+  height: 2.5em;
+  padding: .5em;
+  margin: .5em;
 
 }
 .link{
   text-decoration: none;
-  font-size: .8em;
+  /*font-size: .8em;*/
+  text-transform: capitalize;
 }
 body{
   margin: 0px;
@@ -47,23 +52,53 @@ body{
 
 }
 .mainNav{
-  display: inline-block;
-  padding: 1em;
+  display: inline;
+  padding: .5em auto .5em 1em;
+  margin-bottom: 1em;
 
 }
 .navMenu{
   text-transform: uppercase;
   display: inline-block;
-  color: #E67E22;
-  padding: 0em .5em;
+  color: red;
+  padding: .5em .5em .5em;
   margin-bottom: .5em;
   font-weight: bold;
+  line-height: 1em;
+  text-decoration: none;
 
+
+}
+.secNav{
+  text-decoration: none;
+  color: red;
+  padding: 0em .5em .5em auto;
+  margin-bottom: .5em;
+  line-height: 1em;
+  font-weight: bold;
+  text-align: right;
+  text-align-last: right;
 }
 .textOnBG{
   color: white;
-  text-transform: uppercase;
   font-weight: bold;
 
 }
+h1{
+  text-transform: uppercase;
+}
+.sideBySide{
+  display: inline;
+}
+.sideBySideBlock{
+  display: inline-block;
+}
+.upper{
+  text-transform: uppercase;
+}
 /* display: inline-block; */
+
+.mainShoe{
+  width: 500px;
+  height: 250px;
+}
