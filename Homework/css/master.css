@@ -7,12 +7,13 @@ footer{
 h2{
 
 }
-.headerTable{
+/*.headerTable{
   color: #E67E22;
 
-}
+}*/
 .bgColorOrange{
   background-color: darkorange;
+  padding: 2em;
 
 }
 .bgColorWhite{
@@ -27,3 +28,8 @@ h2{
   text-align: center;
 
 }
+body{
+  margin: 0px;
+
+}
+/* display: inline-block; */
