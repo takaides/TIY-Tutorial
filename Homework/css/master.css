@@ -13,7 +13,7 @@ h2{
 
 }*/
 .storeBG{
-  background: linear-gradient(to right, DeepPink , OrangeRed); 
+  background: linear-gradient(to right, DeepPink , OrangeRed);
   padding: 2em;
 
 }
@@ -28,7 +28,8 @@ h2{
 }
 .centered{
   text-align: center;
-
+  align-content: center;
+  vertical-align: center;
 }
 .cart{
   height: 1em;
@@ -39,7 +40,7 @@ h2{
   height: 2.5em;
   padding: .5em;
   margin: .5em;
-
+  vertical-align: middle;
 }
 .link{
   text-decoration: none;
@@ -52,33 +53,47 @@ body{
 
 }
 .mainNav{
-  display: inline;
-  padding: .5em auto .5em 1em;
-  margin-bottom: 1em;
-
+  display: inline-block;
+  /*padding: .5em auto .5em 1em;*/
+  /*margin-bottom: 1em;*/
+  vertical-align: middle;
+  float: left;
 }
 .navMenu{
   text-transform: uppercase;
   display: inline-block;
   color: red;
   /*color: linear-gradient(to right, DeepPink , OrangeRed);*/
-  padding: .5em .5em .5em;
-  margin-bottom: .5em;
+  /*padding: .5em .5em .5em;*/
+  /*margin-bottom: .5em;*/
   font-weight: bold;
-  line-height: 1em;
+  /*line-height: 1em;*/
   text-decoration: none;
-
+  vertical-align: middle;
 
 }
+.otherShoes{
+  width: 32%;
+  display: inline-block;
+}
 .secNav{
-  text-decoration: none;
-  color: red;
-  padding: 0em .5em .5em auto;
+  /*align-content: right;*/
+  padding: 1.5em;
   margin-bottom: .5em;
   line-height: 1em;
+  /*text-align-last: right;*/
+  display: inline-block;
+  float: right;
+  vertical-align: middle;
+}
+.secNavButton{
+  text-decoration: none;
+  color: red;
   font-weight: bold;
   text-align: right;
-  text-align-last: right;
+}
+.imgShoe{
+  width: 95%;
 }
 .textOnBG{
   color: white;
@@ -100,6 +115,18 @@ h1{
 /* display: inline-block; */
 
 .mainShoe{
-  width: 500px;
-  height: 250px;
+  width: 95%;
+}
+.mainShoeBlock{
+  width: 48%;
+}
+
+/*meyer reset*/
+.inline{
+  display: inline;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
