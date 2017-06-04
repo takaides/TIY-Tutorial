@@ -12,6 +12,14 @@ h2{
   color: #E67E22;
 
 }*/
+ul{
+  margin: 0em;
+  padding: 0em;
+}
+li{
+  margin: 0em;
+  padding: 0em;
+}
 .storeBG{
   background: linear-gradient(to right, DeepPink , OrangeRed);
   padding: 2em;
@@ -22,7 +30,7 @@ h2{
 
 }
 .bgColorPink{
-  background-color: pink;
+  background-color: DeepPink;
   padding: 1.5em;
 
 }
@@ -36,11 +44,12 @@ h2{
   width: 1.5em;
 }
 .logo{
-  width: 5em;
-  height: 2.5em;
-  padding: .5em;
-  margin: .5em;
+  width: 3em;
+  height: 1.5em;
+  padding: 1em;
+  /*margin: .5em;*/
   vertical-align: middle;
+  float: left;
 }
 .link{
   text-decoration: none;
@@ -54,7 +63,7 @@ body{
 }
 .mainNav{
   display: inline-block;
-  /*padding: .5em auto .5em 1em;*/
+  padding: 1em;
   /*margin-bottom: 1em;*/
   vertical-align: middle;
   float: left;
@@ -62,7 +71,7 @@ body{
 .navMenu{
   text-transform: uppercase;
   display: inline-block;
-  color: red;
+  color: OrangeRed;
   /*color: linear-gradient(to right, DeepPink , OrangeRed);*/
   /*padding: .5em .5em .5em;*/
   /*margin-bottom: .5em;*/
@@ -70,10 +79,11 @@ body{
   /*line-height: 1em;*/
   text-decoration: none;
   vertical-align: middle;
+  letter-spacing: .7px;
 
 }
 .otherShoes{
-  width: 32%;
+  width: 22%;
   display: inline-block;
 }
 .secNav{
@@ -129,4 +139,7 @@ h1{
   content: "";
   display: table;
   clear: both;
+}
+.buyNow{
+  padding: 1em;
 }

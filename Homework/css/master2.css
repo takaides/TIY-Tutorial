@@ -1,0 +1,20 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.centered{
+  text-align: center;
+  align-content: center;
+  vertical-align: center;
+}
+.border{
+  border: black solid 2px;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+}
+.defaultSize{
+  height: 3em;
+}
