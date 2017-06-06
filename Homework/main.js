@@ -22,6 +22,7 @@ var reviews = document.getElementById('reviews');
 //   // )
 //
 // }
+
 function pD.addEventListener("hover", function productDetailsFun(){
   console.log("Hiding Reviews and Size and Fit")
   productDetails.visibility='visible';
