@@ -8,6 +8,7 @@
   text-align: center;
   align-content: center;
   vertical-align: center;
+
 }
 .border{
   border: black solid 2px;
@@ -34,7 +35,21 @@ li{
   padding: 0em;
 }
 section{
-  border: solid red 5px;
+  /*border: solid red 5px;*/
+  /*display: flex;*/
+  justify-content: space-around;
+  align-content: center;
+  vertical-align: middle;
+}
+.contentSize{
+  max-width: 1200px;
+  min-width: 600px;
+}
+.flLeft{
+  float: left;
+}
+.flRight{
+  float: right;
 }
 .logo{
   vertical-align: center;
@@ -61,6 +76,11 @@ section{
   text-transform: uppercase;
   font-size: .8em;
 }
+.navMenu:hover{
+  padding-bottom: .5em;
+  border-bottom: DeepPink Solid 3px;
+  color: DeepPink;
+}
 .secNav{
   padding: 1.5em;
   margin-bottom: .5em;
@@ -85,10 +105,9 @@ section{
   background: linear-gradient(to right, DeepPink , OrangeRed);
 }
 .mainShoeBlock{
-  width: 1000px;
-  border-color: white;
-  margin-left: 180px;
-  /*display: inline-block;*/
+  border: blue solid 2px;
+  /*margin-left: 180px;*/
+  display: inline-block;
 
 }
 .mainShoeBlockLeft{
@@ -105,6 +124,10 @@ section{
   padding-top: 1em;
   font-size: .8em;
 }
+/*#mainShoe{
+  display: flex;
+  align-items: center;
+}*/
 .mainShoe{
   width: 90%;
   align-self: center;
@@ -113,8 +136,9 @@ section{
   display: inline-block;
   width: 39%;
   float: right;
+  border-color: Purple;
 }
-.mainShoeName{
+#mainShoeName{
   color: white;
   text-align: left;
   font-weight: 500;
@@ -124,7 +148,7 @@ section{
   /*padding-bottom: 0em;*/
   margin: 0em;
 }
-.mainShoeSeason{
+#mainShoeSeason{
   color: DarkRed;
   text-align: left;
   padding: 0em 1.6em 1em;
@@ -135,7 +159,7 @@ section{
   color: white;
   text-align: left;
   font-size: .8em;
-  display: inline;
+  display: inline-block;
 }
 .borderMainShoeDescription{
   margin-top: .5em;
@@ -145,12 +169,13 @@ section{
   border-left: transparent;
   border-right: transparent;
   border-color: DarkRed;
+  border-width: thin;
 }
 .reviewDesLink{
   color: DarkRed;
   text-align: right;
   text-transform: capitalize;
-  display: inline;
+  display: inline-block;
   font-size: .8em;
 }
 .mainShoePrice{
@@ -175,10 +200,49 @@ section{
   text-align: left;
   padding-left: 1.6em;
 }
+#buyButton{
+  padding: 1em;
+}
+#otherShoes{
+  display: flex;
+  align-content: center;
+}
 .otherShoes{
-  width: 22%;
+  width: 32.5%;
   display: inline-block;
 }
 .imgShoe{
   width: 95%;
+}
+#detailsHeader{
+  display: inline-block;
+  max-width: 1000px;
+
+}
+/*#detailsHeader:hover{
+  font-size: 5em;
+}*/
+#detailsHeader h3{
+  display: inline-block;
+  text-transform: capitalize;
+
+}
+#detailsHeader h3:hover{
+  border-bottom: DeepPink Solid 3px;
+}
+#pD:hover{
+  productDetails.visibility: visible;
+}
+#sF:hover{
+
+}
+#productDetails{
+  visibility: visible;
+
+}
+#sizeAndFit{
+visibility: hidden;
+}
+#reviews{
+visibility: hidden;
 }
