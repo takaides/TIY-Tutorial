@@ -1,16 +1,16 @@
 console.log("Logging from the console");
 
-var pD = document.getElementById('pD');
+var pD = document.getElementById("pD");
 
-var sF = document.getElementById('sF');
+var sF = document.getElementById("sF");
 
-var rV = document.getElementById('rV');
+var rV = document.getElementById("rV");
 
-var productDetails = document.getElementById('productDetails');
+var productDetails = document.getElementById("productDetails");
 
-var sizeAndFit = document.getElementById('sizeAndFit');
+var sizeAndFit = document.getElementById("sizeAndFit");
 
-var reviews = document.getElementById('reviews');
+var reviews = document.getElementById("reviews");
 
 // var trigger = document.getElementById('id');
 //
@@ -23,23 +23,23 @@ var reviews = document.getElementById('reviews');
 //
 // }
 
-pD.addEventListener("hover", function productDetailsFun() {
+pD.addEventListener("click", function productDetailsFun() {
   console.log("Hiding Reviews and Size and Fit")
-  productDetails.visibility='visible';
-  reviews.visibility='hidden';
-  sizeAndFit.visibility='hidden';
+  productDetails.style.display='block';
+  reviews.style.display='none';
+  sizeAndFit.style.display='none';
 });
 
-sF.addEventListener("hover", function sizeAndFitFun() {
+sF.addEventListener("click", function sizeAndFitFun() {
   console.log("Hiding Reviews and Product Details")
-  sizeAndFit.visibility='visible';
-  reviews.visibility='hidden';
-  productDetails.visibility='hidden';
+  sizeAndFit.style.display='block';
+  reviews.style.display='none';
+  productDetails.style.display='none';
 });
 
-rV.addEventListener("hover", function Added Item() {
+rV.addEventListener("click", function reviewFun() {
   console.log("Hiding Product Details and Size and Fit")
-  reviews.visibility='visible';
-  productDetails.visibility='hidden';
-  sizeAndFit.visibility='hidden';
+  reviews.style.display='block';
+  productDetails.style.display='none';
+  sizeAndFit.style.display='none';
 });

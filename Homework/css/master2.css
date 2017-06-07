@@ -8,7 +8,8 @@
   text-align: center;
   align-content: center;
   vertical-align: center;
-
+  justify-content: center;
+  align-items: center;
 }
 .border{
   border: black solid 2px;
@@ -36,7 +37,7 @@ li{
   padding: 0em;
 }
 section{
-  border: solid red 5px;
+  /*border: solid red 5px;*/
   display: block;
   /*justify-content: space-around;*/
   justify-content: center;
@@ -46,6 +47,7 @@ section{
 .contentSize{
   max-width: 1200px;
   min-width: 600px;
+  min-height: 420px;
 }
 .flLeft{
   float: left;
@@ -111,6 +113,7 @@ section{
   border: blue solid 2px;
   /*margin-left: 180px;*/
   display: inline-block;
+  vertical-align:middle;
 
 }
 .mainShoeBlockLeft{
@@ -118,13 +121,14 @@ section{
   width: 59%;
   text-align: left;
   display: inline-block;
-  float: left;
+  /*float: left;*/
+  vertical-align: middle;
 }
 .mainShoeLink{
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  padding-top: 1em;
+  padding-top: 5em;
   font-size: .8em;
 }
 /*#mainShoe{
@@ -140,6 +144,7 @@ section{
   width: 39%;
   float: right;
   border-color: Purple;
+  vertical-align: middle;
 }
 #mainShoeName{
   color: white;
@@ -204,17 +209,80 @@ section{
   padding-left: 1.6em;
 }
 #buyButton{
-  padding: 1em;
+  padding: .7em 1.2em;
+  border-radius: .75em;
+  color: OrangeRed;
+  background-color: white;
+  font-size: 1em;
+  text-transform: uppercase;
 }
+#detailsHeader{
+  display: inline-flex;
+  min-width: inherit;
+  max-width: inherit;
+
+}
+#detailsHeader h3{
+  /*display: inline-block;*/
+  text-transform: capitalize;
+  border-bottom: transparent Solid 3px;
+  display: flex;
+  align-items: flex-start;
+  color: OrangeRed;
+  flex-wrap: nowrap;
+}
+#detailsHeader h3:hover{
+  border-bottom: DeepPink Solid 3px;
+  color: DeepPink;
+}
+#pD{
+  text-align: left;
+  /*align-self: flex-start;*/
+  float: left;
+}
+#sF{
+ float: left;
+}
+#rV{
+  float: right;
+  text-align: right;
+  align-self: flex-end;
+}
+#productText{
+  height: 15em;
+}
+#productDetails{
+  text-align: left;
+}
+#productDetails h4{
+  font-size: 1.8em;
+}
+#productDetails h5{
+  font-size: 1.4em;
+}
+#sizeAndFit{
+  display: none;
+
+}
+#reviews{
+  display: none;
+}
+
 #otherShoes{
   display: flex;
   align-content: center;
 }
 #shopRecHeader{
   background: Pink;
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-align: center;
+  justify-content: center;
   display: flex;
+  min-height: 40px;
+}
+#shopRecHeader h2{
+  align-self: center;
+  justify-content: center;
 }
 .otherShoes{
   width: 32.5%;
@@ -222,36 +290,4 @@ section{
 }
 .imgShoe{
   width: 95%;
-}
-#detailsHeader{
-  display: inline-block;
-  max-width: 1000px;
-
-}
-/*#detailsHeader:hover{
-  font-size: 5em;
-}*/
-#detailsHeader h3{
-  display: inline-block;
-  text-transform: capitalize;
-
-}
-#detailsHeader h3:hover{
-  border-bottom: DeepPink Solid 3px;
-}
-#pD:hover{
-  productDetails.visibility: visible;
-}
-#sF:hover{
-
-}
-#productDetails{
-  visibility: visible;
-
-}
-#sizeAndFit{
-visibility: hidden;
-}
-#reviews{
-visibility: hidden;
 }
