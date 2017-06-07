@@ -17,6 +17,7 @@ body{
   padding: 0px;
   margin: 0px;
   float: none;
+  clear: both;
   font-family: 'Ubuntu', sans-serif;
 }
 header{
@@ -35,9 +36,10 @@ li{
   padding: 0em;
 }
 section{
-  /*border: solid red 5px;*/
-  /*display: flex;*/
-  justify-content: space-around;
+  border: solid red 5px;
+  display: block;
+  /*justify-content: space-around;*/
+  justify-content: center;
   align-content: center;
   vertical-align: middle;
 }
@@ -75,11 +77,12 @@ section{
   letter-spacing: .7px;
   text-transform: uppercase;
   font-size: .8em;
+  padding-bottom: .5em;
+  border-bottom: transparent Solid 3px;
 }
 .navMenu:hover{
-  padding-bottom: .5em;
-  border-bottom: DeepPink Solid 3px;
-  color: DeepPink;
+  border-color: DeepPink;
+  color: DarkRed;
 }
 .secNav{
   padding: 1.5em;
@@ -206,6 +209,12 @@ section{
 #otherShoes{
   display: flex;
   align-content: center;
+}
+#shopRecHeader{
+  background: Pink;
+  font-size: 1.5em;
+  text-align: center;
+  display: flex;
 }
 .otherShoes{
   width: 32.5%;

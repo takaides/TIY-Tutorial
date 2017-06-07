@@ -23,21 +23,21 @@ var reviews = document.getElementById('reviews');
 //
 // }
 
-function pD.addEventListener("hover", function productDetailsFun(){
+pD.addEventListener("hover", function productDetailsFun() {
   console.log("Hiding Reviews and Size and Fit")
   productDetails.visibility='visible';
   reviews.visibility='hidden';
   sizeAndFit.visibility='hidden';
 });
 
-function sF.addEventListener("hover", function sizeAndFitFun(){
+sF.addEventListener("hover", function sizeAndFitFun() {
   console.log("Hiding Reviews and Product Details")
   sizeAndFit.visibility='visible';
   reviews.visibility='hidden';
   productDetails.visibility='hidden';
 });
 
-function rV.addEventListener("hover", function Added Item(){
+rV.addEventListener("hover", function Added Item() {
   console.log("Hiding Product Details and Size and Fit")
   reviews.visibility='visible';
   productDetails.visibility='hidden';
