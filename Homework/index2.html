@@ -28,7 +28,7 @@
         <ul>
           <li class="secNavButton">Help</li>
           <li class="secNavButton">My Account</li>
-          <li class="secNavButton"><img class="cart" src="images/cart.jpg">Shopping Cart</li>
+          <li id="cart" class="secNavButton"><img class="cart" src="images/cart.jpg">Shopping Cart</li>
         </ul>
       </nav>
     </header>
@@ -66,19 +66,19 @@
             <p class="mainShoePrice">$</p><h2 class="mainShoePrice2">120</h2><p class="mainShoePrice"> 00</p>
 
             <!-- purchase button -->
-            <button type="button" id="buyButton" name="button">Buy Now</button>
+            <button type="button" id="buyButton" name="button">Buy Now!</button>
           </div>
         </div>
       </div>
     </section>
     <section class="clearfix centered">
       <!-- Product Details -->
-      <div class="border centered contentSize">
+      <div id="productSection" class="border centered contentSize">
         <!-- heading buttons -->
         <div id="detailsHeader" class="border clearfix">
           <h3 id="pD">Product details</h3>
           <h3 id="sF">size & fit</h3>
-          <h3 id="rV">reviews</h3>
+          <h3 id="rV">reviews &#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</h3>
         </div>
         <div id="productText" class="">
           <!-- exciting things -->
@@ -127,14 +127,23 @@
     </section>
     <footer class="clearfix border">
       <!-- logo -->
-
+      <a class="link" href="index.html">
+        <img class="logo" src="images/logo.jpg" alt="Shoe Logo">
+      </a>
       <!-- main nav -->
-      Main nav
-      <!-- Copy from top of page when done there -->
+      <nav class="mainNav">
+        <ul>
+          <li class="navMenu">men</li>
+          <li class="navMenu">women</li>
+          <li class="navMenu">boys</li>
+          <li class="navMenu">girls</li>
+          <li class="navMenu">customize</li>
+        </ul>
+      </nav>
       <!-- copyright nav -->
       copyright nav
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <script src="main.js"></script>
   </body>
 </html>

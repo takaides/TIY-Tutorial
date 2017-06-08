@@ -12,7 +12,7 @@
   align-items: center;
 }
 .border{
-  border: black solid 2px;
+  /*border: black solid 2px;*/
 }
 body{
   padding: 0px;
@@ -20,6 +20,7 @@ body{
   float: none;
   clear: both;
   font-family: 'Ubuntu', sans-serif;
+  letter-spacing: -.2px;
 }
 header{
   background: white;
@@ -45,7 +46,7 @@ section{
   vertical-align: middle;
 }
 .contentSize{
-  max-width: 1200px;
+  max-width: 1100px;
   min-width: 600px;
   min-height: 420px;
 }
@@ -79,12 +80,13 @@ section{
   letter-spacing: .7px;
   text-transform: uppercase;
   font-size: .8em;
-  padding-bottom: .5em;
+  padding: 0px .4rem .3em;
+  /*padding-bottom: .5em;*/
   border-bottom: transparent Solid 3px;
 }
 .navMenu:hover{
   border-color: Pink;
-  color: Red;
+  color: DarkRed;
 }
 .secNav{
   padding: 1.5em;
@@ -100,6 +102,7 @@ section{
   text-transform: capitalize;
   display: inline-block;
   font-size: .8em;
+  padding-left: 1.75rem;
 }
 .cart{
   height: .8em;
@@ -216,67 +219,112 @@ section{
 }
 #buyButton{
   padding: .7em 1.2em;
-  border-radius: .75em;
+  border-radius: .5rem;
   color: OrangeRed;
   background-color: white;
   font-size: 1em;
   text-transform: uppercase;
+  border-color: white;
+  margin-left: 2rem;
+}
+#buyButton:hover{
+  background-color: transparent;
+  color: white;
+}
+#productSection{
+  padding-left: 160px;
 }
 #detailsHeader{
-  display: inline-flex;
+  display: flex;
   min-width: inherit;
   max-width: inherit;
-
+  padding-top: 4rem;
+  /*padding-bottom: 1rem;*/
+  justify-content: flex-start;
+  border-bottom: pink solid .1rem;
 }
 #detailsHeader h3{
   /*display: inline-block;*/
   text-transform: capitalize;
   border-bottom: transparent Solid 3px;
-  display: flex;
-  align-items: flex-start;
+  display: block;
   color: OrangeRed;
-  flex-wrap: nowrap;
+  /*flex-wrap: nowrap;*/
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin: 0px 1rem;
+  padding-bottom: .5rem;
 }
 #detailsHeader h3:hover{
-  border-bottom: DeepPink Solid 3px;
-  color: DeepPink;
+  border-color: Pink;
+  color: DarkRed;
 }
 #pD{
   text-align: left;
-  /*align-self: flex-start;*/
-  float: left;
+  align-self: flex-start;
+  /*float: left;*/
 }
 #sF{
- float: left;
+ /*float: left;*/
 }
 #rV{
-  float: right;
+  /*float: right;*/
   text-align: right;
   align-self: flex-end;
 }
 #productText{
   height: 15em;
+  padding-top: 2.5rem;
+  text-align: left;
+
 }
 #productDetails{
   text-align: left;
 }
+#productDetails *{
+  padding-bottom: 1em;
+}
 #productDetails h4{
-  font-size: 1.8em;
+  font-size: 1.5em;
+  font-weight: 500;
 }
 #productDetails h5{
-  font-size: 1.4em;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+#productDetails p{
+  color: grey;
 }
 #sizeAndFit{
   display: none;
-
+}
+#sizeAndFit *{
+  padding-bottom: 1em;
+}
+#sizeAndFit h4{
+  font-size: 1.5em;
+  font-weight: 500;
+}
+#sizeAndFit p{
+  color: grey;
 }
 #reviews{
   display: none;
 }
-
+#reviews *{
+  padding-bottom: 1em;
+}
+#reviews h4{
+  font-size: 1.5em;
+  font-weight: 500;
+}
+#reviews p{
+  color: grey;
+}
 #otherShoes{
   display: flex;
   align-content: center;
+  padding-left: 160px;
 }
 #shopRecHeader{
   background: Pink;
@@ -296,4 +344,11 @@ section{
 }
 .imgShoe{
   width: 95%;
+}
+footer{
+  background: white;
+  padding: 0px;
+  margin: 0px;
+  height: 4.3em;
+  /*border: green solid 5px;*/
 }
