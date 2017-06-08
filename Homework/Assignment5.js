@@ -30,12 +30,11 @@ console.log(yell10(someText));
 
 // Exercise 3
 function longest(a,b){
-  var long;
   if (a.length > b.length) {
     console.log(a + " is longer than " + b);
     return a;
   } else {
-    if (length.a < length.b) {
+    if (a.length < b.length) {
       console.log(b + " is longer than " + a);
       return b;
     } else {
@@ -59,17 +58,18 @@ function isVowel(a){
   var i = 0;
   if (a.length != 1) {
     tempChar = tempChar.substr(0,1);
+    console.log(a + " is not a single character!");
   }
   while (vowels[i]) {
-    if (vowels[i]==tempChar){
-      isVowel=true;
-      console.log(a + " is a vowel!");
+    if (vowels[i] == tempChar){
+      isVowel = true;
+      console.log(tempChar + " is a vowel!");
       return isVowel;
     } else {
       i++;
     }
   }
-  if (isVowel==false){
+  if (isVowel == false){
     console.log(a + " is not a vowel! :(");
     return isVowel;
   }
@@ -80,4 +80,5 @@ var charB = "B";
 
 console.log(isVowel(charA));
 console.log(isVowel(charB));
+console.log(isVowel("aloha"));
 console.log(isVowel(someText));
