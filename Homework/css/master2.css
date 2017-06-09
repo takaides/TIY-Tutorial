@@ -4,17 +4,20 @@
   clear: both;
   overflow: auto;
 }
-.centered{
+
+.centered {
   text-align: center;
   align-content: center;
   vertical-align: center;
   justify-content: center;
   align-items: center;
 }
-.border{
+
+.border {
   /*border: black solid 2px;*/
 }
-body{
+
+body {
   padding: 0px;
   margin: 0px;
   float: none;
@@ -22,22 +25,26 @@ body{
   font-family: 'Ubuntu', sans-serif;
   letter-spacing: -.2px;
 }
-header{
+
+header {
   background: white;
   padding: 0px;
   margin: 0px;
   height: 4.3em;
   /*border: green solid 5px;*/
 }
-ul{
+
+ul {
   margin: 0em;
   padding: 0em;
 }
-li{
+
+li {
   margin: 0em;
   padding: 0em;
 }
-section{
+
+section {
   /*border: solid red 5px;*/
   display: block;
   /*justify-content: space-around;*/
@@ -45,38 +52,43 @@ section{
   align-content: center;
   vertical-align: middle;
 }
-.contentSize{
+
+.contentSize {
   max-width: 1100px;
   min-width: 600px;
   min-height: 420px;
 }
-.flLeft{
+
+.flLeft {
   float: left;
 }
-.flRight{
+
+.flRight {
   float: right;
 }
-.logo{
+
+.logo {
   vertical-align: center;
   float: left;
   width: 3em;
   height: 1.5em;
   padding: 1.5em 0em 1.5em 1em;
-
 }
-.mainNav{
+
+.mainNav {
   vertical-align: center;
   float: left;
   display: inline-block;
   padding: 1.5em;
   padding-left: 1em;
 }
-.navMenu{
+
+.navMenu {
   display: inline-block;
   color: OrangeRed;
   font-weight: 500;
   text-decoration: none;
-  vertical-align: middle;
+  vertical-align: -3px;
   letter-spacing: .7px;
   text-transform: uppercase;
   font-size: .8em;
@@ -84,18 +96,21 @@ section{
   /*padding-bottom: .5em;*/
   border-bottom: transparent Solid 3px;
 }
-.navMenu:hover{
+
+.navMenu:hover {
   border-color: Pink;
   color: DarkRed;
 }
-.secNav{
+
+.secNav {
   padding: 1.5em;
   margin-bottom: .5em;
   display: inline-block;
   float: right;
   vertical-align: middle;
 }
-.secNavButton{
+
+.secNavButton {
   text-decoration: none;
   color: OrangeRed;
   font-weight: 500;
@@ -104,22 +119,26 @@ section{
   font-size: .8em;
   padding-left: 1.75rem;
 }
-.cart{
+
+.cart {
   height: .8em;
   width: 1.2em;
   padding-right: 2px;
 }
-.gradBG{
-  background: linear-gradient(to right, DeepPink , OrangeRed);
+
+.gradBG {
+  background: linear-gradient(to right, DeepPink, OrangeRed);
 }
-.mainShoeBlock{
+
+.mainShoeBlock {
   border: blue 2px;
   margin-left: 140px;
   display: inline-block;
-  vertical-align:middle;
+  vertical-align: middle;
   min-height: 450px;
 }
-.mainShoeBlockLeft{
+
+.mainShoeBlockLeft {
   border-color: green;
   width: 54%;
   text-align: left;
@@ -129,30 +148,36 @@ section{
   vertical-align: middle;
   padding-top: 2rem;
 }
-.mainShoeLink{
+
+.mainShoeLink {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
   padding-top: 4rem;
   font-size: .8em;
 }
+
+
 /*#mainShoe{
   display: flex;
   align-items: center;
 }*/
-.mainShoe{
+
+.mainShoe {
   padding-top: 3rem;
   width: 85%;
   align-self: center;
 }
-.mainShoeBlockRight{
+
+.mainShoeBlockRight {
   display: inline-block;
   width: 45%;
   float: right;
   border-color: Purple;
   vertical-align: middle;
 }
-#mainShoeName{
+
+#mainShoeName {
   color: white;
   text-align: left;
   font-weight: 400;
@@ -162,14 +187,16 @@ section{
   /*padding-bottom: 0em;*/
   margin: 0em;
 }
-#mainShoeSeason{
+
+#mainShoeSeason {
   color: DarkRed;
   text-align: left;
   padding: 0rem 3rem 1rem;
   text-transform: uppercase;
   margin: 0em;
 }
-.mainShoeDescription{
+
+.mainShoeDescription {
   color: white;
   text-align: left;
   font-size: 1em;
@@ -177,7 +204,8 @@ section{
   line-height: 1.8em;
   padding: 0rem 1.4rem
 }
-.borderMainShoeDescription{
+
+.borderMainShoeDescription {
   margin-top: .5em;
   margin-bottom: .5em;
   padding: 1.6rem;
@@ -187,7 +215,8 @@ section{
   border-color: DarkRed;
   border-width: thin;
 }
-.reviewDesLink{
+
+.reviewDesLink {
   color: DarkRed;
   text-align: right;
   text-transform: capitalize;
@@ -195,14 +224,16 @@ section{
   font-size: .8em;
   align-self: right;
 }
-.mainShoePrice{
+
+.mainShoePrice {
   color: white;
   display: inline;
   vertical-align: top;
   font-size: .8em;
   text-align: left;
 }
-.mainShoePrice2{
+
+.mainShoePrice2 {
   color: white;
   display: inline;
   vertical-align: top;
@@ -211,13 +242,15 @@ section{
   padding: 0em;
   text-align: left;
 }
-.priceBuy{
+
+.priceBuy {
   align-items: left;
   align-content: left;
   text-align: left;
   padding-left: 3rem;
 }
-#buyButton{
+
+#buyButton {
   padding: .7em 1.2em;
   border-radius: .5rem;
   color: OrangeRed;
@@ -227,14 +260,17 @@ section{
   border-color: white;
   margin-left: 2rem;
 }
-#buyButton:hover{
+
+#buyButton:hover {
   background-color: transparent;
   color: white;
 }
-#productSection{
+
+#productSection {
   padding-left: 160px;
 }
-#detailsHeader{
+
+#detailsHeader {
   display: flex;
   min-width: inherit;
   max-width: inherit;
@@ -243,7 +279,8 @@ section{
   justify-content: flex-start;
   border-bottom: pink solid .1rem;
 }
-#detailsHeader h3{
+
+#detailsHeader h3 {
   /*display: inline-block;*/
   text-transform: capitalize;
   border-bottom: transparent Solid 3px;
@@ -255,78 +292,97 @@ section{
   margin: 0px 1rem;
   padding-bottom: .5rem;
 }
-#detailsHeader h3:hover{
+
+#detailsHeader h3:hover {
   border-color: Pink;
   color: DarkRed;
 }
-#pD{
+
+#pD {
   text-align: left;
   align-self: flex-start;
   /*float: left;*/
 }
-#sF{
- /*float: left;*/
+
+#sF {
+  /*float: left;*/
 }
-#rV{
+
+#rV {
   /*float: right;*/
   text-align: right;
   align-self: flex-end;
 }
-#productText{
+
+#productText {
   height: 15em;
   padding-top: 2.5rem;
   text-align: left;
-
 }
-#productDetails{
+
+#productDetails {
   text-align: left;
 }
-#productDetails *{
+
+#productDetails * {
   padding-bottom: 1em;
 }
-#productDetails h4{
+
+#productDetails h4 {
   font-size: 1.5em;
   font-weight: 500;
 }
-#productDetails h5{
+
+#productDetails h5 {
   font-size: 1.3em;
   font-weight: 500;
 }
-#productDetails p{
+
+#productDetails p {
   color: grey;
 }
-#sizeAndFit{
+
+#sizeAndFit {
   display: none;
 }
-#sizeAndFit *{
+
+#sizeAndFit * {
   padding-bottom: 1em;
 }
-#sizeAndFit h4{
+
+#sizeAndFit h4 {
   font-size: 1.5em;
   font-weight: 500;
 }
-#sizeAndFit p{
+
+#sizeAndFit p {
   color: grey;
 }
-#reviews{
+
+#reviews {
   display: none;
 }
-#reviews *{
+
+#reviews * {
   padding-bottom: 1em;
 }
-#reviews h4{
+
+#reviews h4 {
   font-size: 1.5em;
   font-weight: 500;
 }
-#reviews p{
+
+#reviews p {
   color: grey;
 }
-#otherShoes{
+
+#otherShoes {
   display: flex;
   align-content: center;
   padding-left: 160px;
 }
-#shopRecHeader{
+
+#shopRecHeader {
   background: Pink;
   font-size: 1.3em;
   text-align: center;
@@ -334,18 +390,22 @@ section{
   display: flex;
   min-height: 40px;
 }
-#shopRecHeader h2{
+
+#shopRecHeader h2 {
   align-self: center;
   justify-content: center;
 }
-.otherShoes{
+
+.otherShoes {
   width: 32.5%;
   display: inline-block;
 }
-.imgShoe{
+
+.imgShoe {
   width: 95%;
 }
-footer{
+
+footer {
   background: white;
   padding: 0px;
   margin: 0px;
